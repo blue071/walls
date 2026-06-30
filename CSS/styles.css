@@ -7,40 +7,65 @@ body {
   background: #f1f5fc;
   color: #253238;
 }
+div {
+  float: left;
+}
+h1{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+p{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 header {
   background: linear-gradient(120deg, #8c33c7, #55196d);
   color: #f7ffd9;
-  padding: 60px 20px;
-  text-align: center;
+  padding: 60px 40px;
+  
 }
 main {
   max-width: 960px;
   margin: 0 auto;
-  padding: 40px 20px;
+
+  padding: 10px 20px;
   
 }
+.lunk{
+  float: right;
+  max-width: 100px;
+  max-height: 100px;
+  padding: 10px 10px;
+}
+
 a:link {
   font-family: "Segoe UI", Roboto, sans-serif;
   color: pink;
-  background-color: transparent;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 12px;
   text-decoration: none;
+  padding: 10px 10px;
 }
 a:visited {
   color: pink;
-  background-color: transparent;
   text-decoration: none;
 }
 a:hover {
   color: red;
-  background-color: transparent;
+  background-color:  #e7e9ec;
   text-decoration: none;
 }
 section {
-  background: #fff;
+  background: #fcfcfc;
   border-radius: 12px;
   padding: 24px;
   margin-bottom: 24px;
   box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+section:hover{
+  background: #ffffff;
 }
 section h2 {
   margin-top: 0;
