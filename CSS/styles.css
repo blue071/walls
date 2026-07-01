@@ -1,28 +1,49 @@
 * {
   box-sizing: border-box;
 }
+
 body {
+  
   font-family: "Segoe UI", Roboto, sans-serif;
   margin: 0;
   background: #f1f5fc;
   color: #253238;
+  
 }
-div {
+.left {
   float: left;
 }
+.right {
+  float: right;
+  
+}
+a:link{
+  font-family: "Segoe UI", Roboto, sans-serif;
+  color: #f7ffd9;
+  background-color: transparent;
+  border-radius: 0px;
+  text-decoration: none;
+  
+}
+a:hover{color: #f7ffd9;}
+a:after{color: #f7ffd9;}
+a:visited{color: #f7ffd9;}
 h1{
   margin-top: auto;
   margin-bottom: auto;
+  font-size: 30px;
 }
 p{
   margin-top: auto;
   margin-bottom: auto;
+  font-size: 16px;
 }
 
 header {
   background: linear-gradient(120deg, #8c33c7, #55196d);
   color: #f7ffd9;
-  padding: 60px 40px;
+  padding: 72px 4vw;
+  margin-top: -72px;
   
 }
 main {
@@ -34,29 +55,31 @@ main {
 }
 .lunk{
   float: right;
-  max-width: 100px;
-  max-height: 100px;
-  padding: 10px 10px;
-}
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 16px;
+  padding: 8px;
 
-a:link {
+}
+.lunk:link {
   font-family: "Segoe UI", Roboto, sans-serif;
-  color: pink;
+  color: rgb(253, 202, 255);
   background-color: #ffffff;
   border-radius: 12px;
-  padding: 12px;
-  text-decoration: none;
-  padding: 10px 10px;
-}
-a:visited {
-  color: pink;
   text-decoration: none;
 }
-a:hover {
-  color: red;
+.lunk:visited {
+  color:rgb(253, 202, 255);
+  text-decoration: none;
+}
+.lunk:hover {
+  color: rgb(157, 32, 189);
   background-color:  #e7e9ec;
   text-decoration: none;
 }
+
 section {
   background: #fcfcfc;
   border-radius: 12px;
