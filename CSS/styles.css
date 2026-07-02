@@ -17,6 +17,16 @@ body {
   float: right;
   
 }
+@media (max-width: 400px){
+  .desktop{
+    display: none;
+  }
+}
+@media (min-width: 401px ){
+  .phone{
+    display: none;
+  }
+}
 a:link, a:hover, a:after, a:visited{
   font-family: "Segoe UI", Roboto, sans-serif;
   color: #f7ffd9;
@@ -50,6 +60,26 @@ main {
   padding: 10px 20px;
   
 }
+#navmenu {
+  inset: auto;
+  position-area: bottom;
+  border: 0px;
+}
+button{
+  float: right;
+  background-color: #ffffff;
+  border: 0px;
+  border-radius: 12px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  font-size: 16px;
+  margin-inline: 4px;
+  margin-block: 16px;
+}
+button:hover{
+  background-color:  #e7e9ec;
+}
+
 .lunk{
   float: right;
   margin-top: 16px;
@@ -60,7 +90,6 @@ main {
   padding: 8px;
 
 }
-
 .lunk:link {
   font-family: "Segoe UI", Roboto, sans-serif;
   color: rgb(253, 202, 255);
@@ -72,6 +101,7 @@ main {
 @media (max-width: 400px) {
   .lunk, .lunk:link {
     font-size: 8px;
+
   }
 }
 
